@@ -5,6 +5,10 @@ const NavBar = () => {
   return (
     <div>
       {/*{code here}*/}
+      <NavLink to="/"></NavLink>
+        <NavLink to="/movies"></NavLink>
+          <NavLink to="/directors"></NavLink>
+            <NavLink to="/actors"></NavLink>
     </div>
   );
 };
